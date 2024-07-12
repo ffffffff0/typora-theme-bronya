@@ -14,7 +14,7 @@ html {
 
 html, body {
 	background-color: #f3f2ee;
-	font-family: Arail,Microsoft YaHei;
+	font-family: Fira Code,Microsoft YaHei;
 	color: #1f0909;
 	line-height: 1.5em;
 }
@@ -73,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Microsoft YaHei;
+	font-family: Fira Code,Microsoft YaHei;
 	padding-bottom: 0.3em;
 	border-bottom: 1px solid #d8dee4;
 	font-weight: bold;
@@ -281,7 +281,7 @@ hr {
 }
 
 .md-image>.md-meta{
-	font-family: Microsoft YaHei;
+	font-family: Fira Code,Microsoft YaHei;
 }
 
 
@@ -389,7 +389,7 @@ hr {
 }
 
 header, .context-menu, .megamenu-content, footer {
-	font-family: Microsoft YaHei;
+	font-family: Fira Code,Microsoft YaHei;
 	color: #1f0909;
 }
 
@@ -531,7 +531,7 @@ input {
     代码高亮：IDEA主题样式
  */
 
-.cm-s-inner  { font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;}
+.cm-s-inner  { font-family: Fira Code, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;}
 .cm-s-inner.CodeMirror { background: #2B2B2B; color: #A9B7C6; padding: 5px;}
 
 .cm-s-inner span.cm-meta { color: #BBB529; }
@@ -570,7 +570,7 @@ input {
 .cm-s-inner div.CodeMirror-selected { background: #214283; }
 
 .CodeMirror-hints.darcula {
-  font-family: Consolas, 'Courier New', monospace;
+  font-family: Fira Code, Consolas, 'Courier New', monospace;
   color: #9C9E9E;
   background-color: #3B3E3F !important;
 }
