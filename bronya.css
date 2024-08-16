@@ -1,5 +1,15 @@
+
+/*
+已收录到官方主题商店：https://theme.typora.io/theme/bronya/
+github仓库及更新地址：https://github.com/Bronya0/typora-theme-bronya
+作者：Bronya0
+如果你喜欢，不妨给仓库点个 star ，后续还会更新
+*/
+
+
+
 ::marker {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 pre {
@@ -112,6 +122,20 @@ h4 {
 	margin-top: 2.67em;
 	/*48 / 18*/
 }
+
+h5 {
+	font-size: 16px;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
+
+h6 {
+	font-size: 16px;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
 /* links */
 
 a {
@@ -129,6 +153,7 @@ a:active {
 
 blockquote {
 	border-left: 3px solid;
+	margin-left: 1em;
 	padding-left: 1em;
 }
 
@@ -153,7 +178,7 @@ th {
 }
 td {
 	vertical-align: top;
-	padding: .5em .25em .5em .4em;
+	padding: .25em .25em .25em .4em;
 }
 
 .md-fences {
@@ -171,8 +196,7 @@ code {
 pre,
 code,
 tt {
-	font-size: .875em;
-	line-height: 1.714285em;
+	font-size: .9em;
 }
 
 
@@ -553,7 +577,7 @@ input {
 .cm-s-inner span.cm-link { color: #CC7832; }
 .cm-s-inner span.cm-atom { color: #CC7832; }
 .cm-s-inner span.cm-error { color: #BC3F3C; }
-.cm-s-inner span.cm-tag { color: #bea063; font-weight: bold; font-style: italic; text-decoration: underline; }
+.cm-s-inner span.cm-tag { color: #bea063; font-weight: bold; text-decoration: underline; }
 .cm-s-inner span.cm-attribute { color: #6897bb; }
 .cm-s-inner span.cm-qualifier { color: #6A8759; }
 .cm-s-inner span.cm-bracket { color: #A9B7C6; }
@@ -601,7 +625,6 @@ input {
     height: 1rem !important;
 }
 li.md-list-item {
-    line-height: 120%;
+    line-height: 130%;
 }
-
 
